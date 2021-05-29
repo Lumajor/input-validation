@@ -72,6 +72,7 @@ const checkValidation = (() => {
     const inputInvalid = (text, node) => {
         errorContainer.style.display = 'block'
         errorMessageContainer.innerText = text
+        errorMessageContainer.style.color = 'red'
         node.style.backgroundColor = 'red'
         node.style.color = 'white';
     }
