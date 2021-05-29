@@ -112,7 +112,6 @@ const checkValidation = (() => {
     }
 
     const checkPasswordValidation = (node) => {
-        console.log('password key pressed')
         if (node.value.length < 8) {
             inputInvalid('Password Too Short', node)
             addInvalidOption(node)
