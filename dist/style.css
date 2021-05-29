@@ -1,0 +1,12 @@
+#errorContainer {
+    margin-left: 20px;
+    display: none;
+}
+
+#errorMessageContainer {
+    color: red;
+}
+
+#userInfo {
+    padding: 40px;
+}
